@@ -109,10 +109,11 @@ header {
 }
 .about-text {
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .about-image {
-  width: 30%;
+  width: 40%;
 }
 
 .about-image img {
