@@ -21,6 +21,8 @@ body {
   margin: 10px auto;
 }
 
+/*  header section starts */
+
 header {
   background-color: rgba(229, 84, 115, 0.1);
 }
@@ -49,14 +51,14 @@ header {
 .header-desc {
   color: rgba(39, 39, 39, 0.6);
   font-size: 16px;
-  width: 80%;
+  width: 100%;
   margin: 20px 0;
+  line-height: 24px;
 }
 
 .header-image {
   margin: 0;
   width: 50%;
-
   text-align: center;
   padding: 0 0 0 30px;
   position: absolute;
@@ -79,27 +81,51 @@ header {
   padding: 20px 43px;
 }
 
+/*  about section */
+
+.about-us-container {
+  margin: 50px auto 50px;
+  width: 80%;
+}
+.about-us {
+  background-color: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 40px;
+
+  border-radius: 10px;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-us-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin: 10px 0 10px 10px;
+  width: 50%;
+}
+.about-text {
+  margin-bottom: 10px;
+}
+
+.about-image {
+  width: 30%;
+}
+
+.about-image img {
+  width: 100%;
+}
+
 /*  feature section starts */
 
 .feature-container {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 60px 0;
-}
-
-.feature-title {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 900;
-}
-
-.feature-text {
-  color: rgba(39, 39, 39, 0.6);
-  font-weight: 400;
-  line-height: 25px;
-  width: 50%;
-  margin: 0 auto;
+  margin-top: 60px;
 }
 
 .feature-box-container {
@@ -110,7 +136,7 @@ header {
 }
 
 .feature-box {
-  height: 540px;
+  height: 470px;
   width: 32%;
 }
 
@@ -124,17 +150,17 @@ header {
 }
 
 .featured-flower img {
-  width: 80%;
+  width: 60%;
 }
 
 .pink {
   background-color: rgba(167, 33, 98, 0.15);
-  padding-top: 113px;
+  padding-top: 105px;
 }
 
 .blue {
   background-color: rgba(5, 151, 160, 0.15);
-  padding: 135px 0 80px;
+  padding: 125px 0 55px;
 }
 
 .green {
@@ -145,7 +171,7 @@ header {
   text-decoration: underline;
   color: #272727;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 35px;
 }
 
@@ -179,7 +205,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 50px;
+  padding: 30px 0;
 }
 
 .sign-up-text {
