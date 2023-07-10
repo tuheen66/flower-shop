@@ -147,6 +147,7 @@ header {
   gap: 3%;
   justify-content: space-around;
   padding: 60px 0;
+  margin-bottom: 80px;
 }
 
 .service-item {
@@ -155,4 +156,42 @@ header {
 
 .service-text {
   color: rgba(39, 39, 39, 0.8);
+}
+
+/*  sign up section */
+
+.sign-up-container {
+  text-align: center;
+  background-color: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.sign-up-text {
+  text-align: center;
+}
+
+.sign-up-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.off {
+  color: #e55473;
+}
+
+.sign-up-desc {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.sign-up-image {
+  width: 70%;
+}
+
+.sign-up-image img {
+  width: 50%;
 }
