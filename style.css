@@ -135,3 +135,24 @@ header {
   font-weight: bold;
   line-height: 35px;
 }
+
+/*  service section starts */
+
+.service-container {
+  text-align: center;
+  width: 80%;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 0 auto;
+  display: flex;
+  gap: 3%;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+.service-item {
+  width: 30%;
+}
+
+.service-text {
+  color: rgba(39, 39, 39, 0.8);
+}
