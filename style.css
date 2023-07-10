@@ -200,9 +200,14 @@ header {
 
 /*  sign up section */
 
-.sign-up-container {
-  text-align: center;
+.container {
   background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sign-up-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -223,11 +228,11 @@ header {
 }
 
 .sign-up-image {
-  width: 70%;
+  width: 60%;
 }
 
 .sign-up-image img {
-  width: 50%;
+  width: 40%;
 }
 
 /*  instagram section starts */
