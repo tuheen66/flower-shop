@@ -10,13 +10,13 @@ body {
 
 .section-heading {
   color: #272727;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
 }
 
 .section-text {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 16px;
   width: 50%;
   margin: 10px auto;
 }
@@ -38,7 +38,7 @@ header {
 
 .header-text {
   width: 50%;
-  padding: 80px 0;
+  padding: 110px 0;
 }
 
 .header-title {
@@ -68,7 +68,7 @@ header {
 }
 
 .header-image img {
-  width: 70%;
+  width: 80%;
 }
 
 .btn {
@@ -78,7 +78,7 @@ header {
   border: none;
   border-radius: 8px;
   background: #e55473;
-  padding: 20px 43px;
+  padding: 15px 30px;
 }
 
 /*  about section */
@@ -171,7 +171,7 @@ header {
 .feature-flower-text {
   text-decoration: underline;
   color: #272727;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 900;
   line-height: 35px;
 }
@@ -277,7 +277,7 @@ header {
 }
 
 input[type="email"] {
-  padding: 23px 300px 23px 23px;
+  padding: 20px 300px 20px 23px;
   border: none;
   margin-right: 10px;
 }
@@ -301,4 +301,6 @@ footer {
 
 .copy-right {
   margin-top: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
 }
